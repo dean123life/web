@@ -1,0 +1,273 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente del texto */
+    background-image: url(img/fondo2.jpg); /* Establece una imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el elemento */
+    height: auto; /* Establece la altura del elemento a auto, lo que significa que se ajustará al contenido */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+a {
+    color: rgb(255, 255, 255) ;
+    text-decoration: none;
+    padding: 10px;
+    margin: 2px;
+    font-size: 15px;
+  
+    }
+
+/* Estilos para los elementos con la clase "titulo" */
+.titulo{
+    background-color: rgb(0, 0, 0); /* Define el color de fondo */
+    text-shadow: #ff0000; /* Define la sombra del texto */
+    color: blue; /* Define el color del texto */
+    width: 35%;
+    margin: 0 auto;
+}
+
+/* Estilos para los elementos con la clase "legend" */
+.legend {
+    background-color: #000000;
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 5px; /* Define el espacio interior del elemento */
+    color: rgb(255, 0, 0); /* Define el color del texto */
+    font-family: cursive; /* Define la fuente del texto */
+    text-decoration: underline; /* Subraya el texto */
+    text-shadow: #000000; /* Define la sombra del texto */
+    border-radius: 50% yellow; /* Define el radio del borde */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: 50%; /* Define la posición de la imagen de fondo */
+}
+
+/* Estilos para los elementos con la clase "informacion" */
+.informacion {
+    margin: 0 auto;
+    display: flex; /* Define el tipo de caja flexible para el diseño de la caja */
+    flex-wrap: wrap; /* Permite que los elementos flexibles se envuelvan */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    background-image: url(img/trading1234.webp);
+    background-repeat: repeat;
+    background-position: 50%;
+    font-family: cursive; /* Define la fuente del texto */
+    color: rgb(0, 0, 0); /* Define el color del texto */
+    float: center;
+    text-align: center;
+}
+
+/* Estilos para las imágenes dentro de los elementos con la clase "informacion" */
+.informacion img {
+    float: left;
+    width: 30px; /* Define el ancho de la imagen */
+    height: 30px /* Define la altura de la imagen */
+    
+}
+
+/* Estilos para los elementos con la clase "BROKER", "ORO", y "NOTICIA" */
+.BROKER, .ORO, .NOTICIA{
+    display: flex; /* Define el tipo de caja flexible para el diseño de la caja */
+    align-items: center; /* Centra los elementos flexibles en el eje transversal */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color:transparent; /* Define el color de fondo */
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el elemento */
+    /* Estilos para posicionar los elementos en la esquina superior derecha */
+    position: absolute; /* Posicionamiento absoluto respecto al contenedor más cercano con posición relativa */
+    top: 0; /* Alinea los elementos en la parte superior del contenedor */
+    right: 0; /* Alinea los elementos en la parte derecha del contenedor */
+    /* Resto de tus estilos... */
+    font-size: 30px; /* Todos los párrafos tendrán un tamaño de fuente de 18px */
+    margin: px; /* Agrega espacio exterior alrededor de los elementos */
+    padding: 10px; /* Agrega espacio interior dentro de los elementos */
+
+  }
+  .BROKER{
+    display: flex; /* Define el tipo de caja flexible para el diseño de la caja */
+    align-items: center; /* Centra los elementos flexibles en el eje transversal */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color:transparent; /* Define el color de fondo */
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el elemento */
+    /* Estilos para posicionar los elementos en la esquina superior derecha */
+    position: absolute; /* Posicionamiento absoluto respecto al contenedor más cercano con posición relativa */
+    top: 0; /* Alinea los elementos en la parte superior del contenedor */
+    font-size: 30px; /* Todos los párrafos tendrán un tamaño de fuente de 18px */
+    margin-top: 10px;
+    padding-top: 0%; /* Agrega espacio interior dentro de los elementos */  
+    top: 9px;
+
+}
+
+  .NOTICIA{
+    display: flex; /* Define el tipo de caja flexible para el diseño de la caja */
+    align-items: center; /* Centra los elementos flexibles en el eje transversal */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color:transparent; /* Define el color de fondo */
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el elemento */
+    /* Estilos para posicionar los elementos en la esquina superior derecha */
+    position: absolute; /* Posicionamiento absoluto respecto al contenedor más cercano con posición relativa */
+    top: 0; /* Alinea los elementos en la parte superior del contenedor */
+    /* Resto de tus estilos... */
+    font-size: 30px; /* Todos los párrafos tendrán un tamaño de fuente de 18px */
+    margin-top: 30px;
+    padding-top: 0%; /* Agrega espacio interior dentro de los elementos */
+    top: 15px;
+}
+  .ORO{
+    display: flex; /* Define el tipo de caja flexible para el diseño de la caja */
+    align-items: center; /* Centra los elementos flexibles en el eje transversal */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color:transparent; /* Define el color de fondo */
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el elemento */
+    /* Estilos para posicionar los elementos en la esquina superior derecha */
+    position: absolute; /* Posicionamiento absoluto respecto al contenedor más cercano con posición relativa */
+    top: 0; /* Alinea los elementos en la parte superior del contenedor */
+    /* Resto de tus estilos... */
+    font-size: 30px; /* Todos los párrafos tendrán un tamaño de fuente de 18px */
+    margin-top: 60px;
+    padding-top: 0%; /* Agrega espacio interior dentro de los elementos */
+    top: 15px;
+  }
+.informacion a {
+    color: #01fc0e;
+    font-weight: 900;
+    text-align: center;
+    font-size: 15px; /* Cambia el tamaño de la fuente a 20 píxeles */
+}
+
+/* Estilos para los elementos "div" */
+div {
+    margin: 20px; /* Define el espacio exterior del elemento */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: aqua; /* Define el color del texto */
+}
+
+/* Estilos para el pie de página "footer" */
+footer {
+    background-color: #0d7ef0; /* Define el color de fondo */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 5px; /* Define el espacio interior del elemento */
+    position: fixed; /* Fija la posición del elemento */
+    left: 0; /* Define la posición izquierda del elemento */
+    bottom: 0; /* Define la posición inferior del elemento */
+    width:200px; /* Define el ancho del elemento */
+}
+
+/* Estilos para el elemento con el id "section1" */
+#section1 {
+    background-color: #747947; /* Define el color de fondo */
+    padding: 15px; /* Define el espacio interior del elemento */
+    margin: 5px; /* Define el espacio exterior del elemento */
+    border: 1px solid rgb(0, 0, 0); /* Define el borde del elemento */
+    color: #ff0c0c; /* Define el color del texto */
+}
+#section1 img{  max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen al cambiar el ancho */
+   
+  }
+
+/* Estilos para el elemento con el id "section2" */
+#section2 {
+    background-color: #747947; /* Define el color de fondo */
+    padding: 15px; /* Define el espacio interior del elemento */
+    margin: 5px; /* Define el espacio exterior del elemento */
+    border: 1px solid rgb(0, 0, 0); /* Define el borde del elemento */
+    color: #ff0c0c; /* Define el color del texto */
+}
+#section3 {
+    background-color: #747947; /* Define el color de fondo */
+    padding: 15px; /* Define el espacio interior del elemento */
+    margin: 5px; /* Define el espacio exterior del elemento */
+    border: 1px solid rgb(0, 0, 0); /* Define el borde del elemento */
+    color: #ff0c0c; /* Define el color del texto */
+    
+}
+#section3 img{  
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen al cambiar el ancho */
+  }
+
+/* Estilos para los elementos "p" */
+p {
+    color: #000000; /* Define el color del texto */
+    font-family: cursive; /* Define la fuente del texto */
+    text-align: left;
+    font-weight: bold;
+}
+.texto{
+    margin: auto;
+    padding: 50px; /* Define el espacio interior del elemento */
+    margin: 5px; /* Define el espacio exterior del elemento */
+    border: 1px solid black; /* Define el borde del elemento */
+    margin-right: auto;
+    text-align: left;
+
+}
+/* Estilos para los elementos "h2" */
+h2{
+    color: rgb(248, 142, 3); /* Define el color del texto */
+}
+footer img {
+    width: 60px; /* Define el ancho de la imagen */
+    height: 60px /* Define la altura de la imagen */
+}
+@media (max-width: 768px) {
+    body {
+        /* Ajustes para tablets */
+        background-image: url(img/fondotrading.jpeg); /* Cambia la imagen de fondo para tablets */
+    }
+    .formulario, .titulo, .legend, .informacion, .BROKER, .ORO, .NOTICIA {
+        width: 90%; /* Ajusta el ancho al 100% para ocupar todo el espacio disponible */
+    }
+    .texto img{
+        width: 100%; /* Ajusta el ancho al 100% para ocupar todo el espacio disponible */    
+    }
+    .ORO a {
+        font-size: 10px;
+        padding: 2px;
+    }
+    .BROKER a {
+        font-size: 10px;
+        padding: 2px;
+    }
+    .NOTICIA a {
+        font-size: 10px;
+        padding: 2px;
+    }
+    footer a img {
+        max-width: 25%; /* Asegura que la imagen no sea más ancha que su contenedor */
+        height: auto; /* Mantiene la proporción de la imagen al cambiar el ancho */
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        /* Ajustes para móviles */
+        background-image: url(img/fondotrading.jpeg); /* Cambia la imagen de fondo para móviles */
+    }
+    .formulario, .titulo, .legend, .informacion, .BROKER, .ORO, .NOTICIA {
+        width: 100%; /* Ajusta el ancho al 100% para ocupar todo el espacio disponible */
+
+        
+    }
+    .texto img{
+        width: 100%; /* Ajusta el ancho al 100% para ocupar todo el espacio disponible */
+
+        
+    }
+    .texto{
+        display: grid;
+        grid-template-columns: repeat(1,minmax(100px, 1fr));
+        grid-template-rows:repeat(2, 150px);
+        gap: 50px 10px;
+    }
+    footer a img {
+        max-width: 10%; /* Asegura que la imagen no sea más ancha que su contenedor */
+        height: auto; /* Mantiene la proporción de la imagen al cambiar el ancho */
+    }
+    footer a{
+        text-align: center;
+        font-size: 15px;
+    }
+}
